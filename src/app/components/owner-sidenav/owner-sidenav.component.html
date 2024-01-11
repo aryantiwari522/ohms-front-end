@@ -1,0 +1,50 @@
+<mat-nav-list>
+    <!-- <a mat-list-item routerLinkActive="list-item-active" routerLink="/home">
+        <mat-icon>home</mat-icon> Home
+    </a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/dashboard">
+        <mat-icon>dashboard</mat-icon> Dashboard
+    </a> -->
+    <!-- <a mat-list-item routerLinkActive="list-item-active" routerLink="/owner/addguest" >
+         <mat-icon>person</mat-icon> Add Guest
+    </a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/owner/booking">
+        <mat-icon>bed</mat-icon> Book Room
+   </a> -->
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/owner/guest" >
+        <mat-icon>person</mat-icon> Guest
+   </a>
+
+   <a mat-list-item routerLinkActive="list-item-active" routerLink="/owner/room">
+        <mat-icon>bed</mat-icon> Room
+    </a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/owner/inventory">
+        <mat-icon>inventory</mat-icon> Inventory
+   </a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/owner/employee">
+        <mat-icon>people</mat-icon>Employee
+    </a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/owner/roombooking">
+        <mat-icon>book</mat-icon> Room Booking
+    </a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/owner/bookingoperation">
+        <mat-icon>assignment</mat-icon> Booking Operation
+    </a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/owner/bookingReport">
+        <mat-icon>description</mat-icon> Booking Report
+    </a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/owner/department">
+        <mat-icon>description</mat-icon> Department Report
+    </a>
+    <a mat-list-item routerLinkActive="list-item-active" (click)="addAdmin()">
+        <mat-icon>admin_panel_settings</mat-icon> Add Admin
+    </a>
+    
+    
+</mat-nav-list>
+
+<footer class="footer">
+    <button mat-raised-button color="warn" (click)="logout()">
+        <mat-icon>logout</mat-icon>
+    </button>
+</footer>

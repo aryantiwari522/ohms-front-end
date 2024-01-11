@@ -1,0 +1,20 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+  table {
+    width: 100%;
+  }
+  
+  .mat-form-field {
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  /*.example-tooltip-red {
+    background: #b71c1c;
+  }*/
+  .example-tooltip-red {
+    background: #b71c1c url('C:\Users\ASUS\Downloads\online-hotel-management-system-main\online-hotel-management-system-main\ohms-front-end\src\assets\saad-khan-425b2PhNuHA-unsplash.jpg') center/cover;
+  }
+  

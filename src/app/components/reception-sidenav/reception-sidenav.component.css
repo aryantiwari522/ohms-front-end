@@ -1,0 +1,27 @@
+
+
+  .mat-divider {
+    border-top-width: 2px;
+    border-color: white;
+  }
+  .mat-list-item {
+    color: #94a3b8;
+    font-size: 0.9rem;
+    height: 44px !important;
+    margin-bottom: 4px;
+    /* word-spacing: 5px; */
+  }
+  .mat-icon {
+    vertical-align: middle;
+    margin-right: 1rem;
+  }
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px;
+    padding-left: 85px;
+    padding-bottom: 50px;
+  }
