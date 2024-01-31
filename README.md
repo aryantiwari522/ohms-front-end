@@ -1,27 +1,83 @@
-# OhmsFrontEnd
+Certainly! Below is the updated README file with the added Development server section:
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
+---
 
-## Development server
+# OhmsFrontEnd: Online Hotel Management System Frontend
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Welcome to OhmsFrontEnd, the frontend component of our state-of-the-art Online Hotel Management System (OHMS) developed using Angular CLI version 13.3.0.
 
-## Code scaffolding
+## Overview
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+OhmsFrontEnd is a cutting-edge Angular application designed to provide an intuitive and seamless user experience for managing various aspects of hotel operations. From booking rooms to managing guest preferences, our frontend offers a comprehensive solution tailored to the hospitality industry's needs.
 
-## Build
+## Features
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- **Intuitive User Interface:** Our frontend boasts a modern and user-friendly interface, ensuring ease of use for both hotel staff and guests.
+  
+- **Responsive Design:** Built with responsiveness in mind, OhmsFrontEnd adapts seamlessly to various screen sizes and devices, offering a consistent experience across desktop, tablet, and mobile platforms.
+  
+- **Efficient Booking System:** Streamline the booking process with our efficient reservation system, allowing guests to book rooms effortlessly while providing hotel staff with real-time updates.
+  
+- **Interactive Room Selection:** Enhance the guest experience with interactive room selection features, allowing users to view room details, amenities, and availability before making a reservation.
+  
+- **Personalized Guest Profiles:** Keep track of guest preferences and history with personalized profiles, enabling hotel staff to offer tailored services and enhance customer satisfaction.
+  
+- **Seamless Integration:** OhmsFrontEnd seamlessly integrates with backend systems and third-party services, ensuring smooth data flow and enhancing overall system efficiency.
+  
+- **Robust Security:** Security is paramount in the hospitality industry. Our frontend implements robust security measures to safeguard sensitive guest information and ensure compliance with data protection regulations.
 
-## Running unit tests
+## Development Server
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+To start the development server, simply run the following command:
 
-## Running end-to-end tests
+```bash
+ng serve
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Once the server is running, navigate to `http://localhost:4200/` in your web browser. The application will automatically reload whenever you make changes to any of the source files.
 
-## Further help
+## Getting Started
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+To get started with OhmsFrontEnd, follow these steps:
+
+1. **Clone the Repository:** Clone the OhmsFrontEnd repository to your local machine using Git.
+  
+2. **Install Dependencies:** Navigate to the project directory and install dependencies using npm or yarn.
+
+   ```bash
+   npm install
+   ```
+
+   or
+
+   ```bash
+   yarn install
+   ```
+
+3. **Development Server:** Run the development server using Angular CLI.
+
+   ```bash
+   ng serve
+   ```
+
+   Navigate to `http://localhost:4200/` in your web browser to access the application.
+
+## Contributions
+
+We welcome contributions from the community to enhance and improve OhmsFrontEnd. Feel free to submit bug reports, feature requests, or pull requests to help us make this project even better.
+
+## Documentation
+
+For detailed documentation and usage instructions, refer to the [Wiki](https://github.com/your-username/ohms-frontend/wiki) section of the OhmsFrontEnd repository.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Acknowledgments
+
+We would like to express our gratitude to the Angular community for their continuous support and contributions to the development of OhmsFrontEnd.
+
+---
+
+Feel free to customize this README further to highlight any specific features or aspects of your Online Hotel Management System frontend developed using Angular.
